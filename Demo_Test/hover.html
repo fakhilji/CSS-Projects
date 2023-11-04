@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Pseudo Class</title>
+    <style>
+        .pseudo {
+            height: 175px;
+            width: 175px;
+            font-size: xx-large;
+            color: #00ff;
+            background-color: aquamarine;
+            border: 5px solid red;
+            border-radius: 15px;
+            transition: 2s ease-in-out;
+        }
+        .pseudo:hover {
+            height: 160px;
+            width: 160px;
+            background-color: orange;
+        }
+        .pseudo:active {
+            height: 180px;
+            width: 180px;
+            background-color: greenyellow;
+            transform: rotate(25deg);
+        }
+        
+        .back-image {
+            width: 325px;
+            height: 410px;
+            background-image: url(images/1.png);
+        }
+        .back-image:hover {
+            opacity: 80%;
+        }
+        .back-image:active {
+            width: 305px;
+            height: 400px;
+            transform: ;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="pseudo">Click Button</button>
+     <div class="back-image">
+        
+     </div>
+</body>
+</html>
